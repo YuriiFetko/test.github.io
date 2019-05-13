@@ -1,1 +1,309 @@
-Hello World
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Index page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/app.css">
+  </head>
+
+  <body class="bg-blue">
+    <div class="out">
+      <!-- HEADER content -->
+      <header class="header">
+        <div class="header__wrapper wrapper">
+          <a href="#" class="logo">
+            <div class="logo__img"><img src="img/logo.svg" alt="logo"></div>
+            <div class="logo__text">
+              <h1>
+                <p>Neurobot<span class="trading_blue">.trading</span></p>
+                <p class="logo__text-bottom"> Neural network forecasting</p>
+              </h1>
+            </div>
+          </a>
+          <input type="checkbox" id="burger-menu" class="hidden-menu">
+          <label class="btn-menu" for="burger-menu">
+            <span class="first"></span>
+            <span class="second"></span>
+            <span class="third"></span>
+          </label>
+          <div class="header-wrapper">
+            <nav class="header-nav">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a href="page.html">Forecasts</a>
+                </li>
+                <li class="menu__item">
+                  <a href="tokens.html" class="tokens-link">Tokens</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#">About</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#">Log In</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-right">
+              <button class="btn btn_white">Sign Up</button>
+              <div class="lang">
+                <button class="lang-btn lang__current">Eng</button>
+                <ul class="lang-list">
+                  <li class="lang-list__item"><a class="lang__link" href="#">Рус</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- END content -->
+      <!--HEADER ROBOT block-->
+      <div class="robot-wrapper wrapper">
+        <div class="robot">
+          <div class="robot__img"></div>
+        </div>
+      </div>
+      <!-- END HEADER ROBOT BLOCK -->
+      <div class="preview-wrapper wrapper">
+        <div class="preview">
+          <h1 class="preview__title">Forecasting Exchange Rates</h1>
+          <h2 class="preview__subtitle">
+            <p>of Cryptocurrencies </p>
+            <p>by Neural Network Algorithm</p>
+          </h2>
+          <button class="btn_lg btn_dark-blue transition">Join Free For 3 Days</button>
+        </div>
+      </div>
+      <!--HEADER VIDEO block -->
+      <div class="wrapper">
+        <div class="video-wrapper video">
+          <video class="video__item" controls>
+            <!-- <source src="../video/videoplayback (1).mp4" type="video/mp4"> -->
+          </video>
+          <div class="video-btn"></div>
+        </div>
+      </div>
+      <!--HEADER END VIDEO block -->
+      <!-- MAIN block -->
+      <div class="main">
+        <div class="bg-main"></div>
+        <section class="forecast-block forecast-wrapper wrapper">
+          <div class="forecast-box">
+            <h2 class="forecast-block__title">Popular forecasts</h2>
+            <p class="forecast-block__desc">The forecasts are updated every 30 minutes</p>
+            <div class="forecast-currency">
+              <ul class="value">
+                <li class="value__item"><a href="#" class="value__link">BTC</a></li>
+                <li class="value__item"><a href="#" class="value__link">LTC</a></li>
+                <li class="value__item"><a href="#" class="value__link">ETH</a></li>
+                <li class="value__item"><a href="#" class="value__link">XRP</a></li>
+                <li class="value__item"><a href="#" class="value__link">DASH</a></li>
+                <li class="value__item"><a href="#" class="value__link">XMR</a></li>
+              </ul>
+            </div>
+            <div class="value-now">
+              <div class="value-now__item">
+                <div>XRP/USD</div>
+              </div>
+              <div class="value-now__item">
+                <div>now</div>
+                <div>12,500</div>
+              </div>
+              <div class="value-now__item">
+                <div>24 hours</div>
+                <div>12,550</div>
+                <div>317.00 (5.10%)</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="margin-graph">
+          <div class="graph">
+            <img class="graph__img_lg" src="img/forecasts.png" alt="forecasts currency">
+            <img class="graph__img_md" src="img/forecast-md.png" alt="forecasts currency">
+            <img class="graph__img_sm" src="img/forecast-sm.png" alt="forecasts currency">
+          </div>
+        </div>
+      </div>
+      <!-- MAIN end block -->
+      <!-- HOW IT WORKS block -->
+      <div class="block">
+        <section class="white_wrapper wrapper">
+          <div class="features">
+            <div class="features__content">
+              <h2 class="features__title">How it works?</h2>
+              <div class="about-features">
+                <div class="about-features-left">
+                  <div class="about-features__item">
+                    <img src="img/item_1.svg" alt="item1">
+                    <p>The neural network collects and analyses data 24/7 and provides forecasts for various cryptocurrencies’ exchange rates. There are three types of forecasts: for 24 hours, for 48 hours and for one week. Depending on the type of forecast and the chosen cryptocurrency, the accuracy of the forecast spans within the range of 70-90%. </p>
+                  </div>
+                  <div class="about-features__item">
+                    <img src="img/item_3.svg" alt="item3">
+                    <p> The analysis takes less than a second and comprises the essental aspects of technical analysis, such as technical analysis paterns and signal indicators. </p>
+                  </div>
+                  <div class="about-features__item">
+                    <img src="img/item_4.svg" alt="item4">
+                    <p> The program will be further enriched by introducing the remaining elements of technical analysis (Fibonacci retracement, Elliot wave theory) and fundamental analysis, which will include news analysis to determine the positve and negatve tendencies of the market.</p>
+                  </div>
+                </div>
+                <div class="about-features-right">
+                  <div class="about-features__item">
+                    <img src="img/item_2.svg" alt="item2">
+                    <p>The project is targeted at traders with any level of preparaton and experience. Traders no longer have to be aware of every miniscule detail of technical analysis, wastng tme and efort trying to make their skills and knowledge deeper and more specifc. It facilitates the work of professional traders, allows them to channel their strength into the realizaton of even more worthwhile and important projects and opens up possibilites for the newcomers, who are just entering the exchange trade, serving as a powerful and reliable aid in their actvity. </p>
+                  </div>
+                  <div class="about-features__item">
+                    <img src="img/item_5.svg" alt="item5">
+                    <p> NeuroBot’s algorithm is based on LSTM-network (Long short-term memory) coupled with Gradient Boosting - another machine learning technique.</p>
+                  </div>
+                  <div class="about-features__item">
+                    <img src="img/item_6.svg" alt="item6">
+                    <p> Thanks to the abilites of neural networks, NeuroBot is constantly learning to beter correspond to the state of the market, to make more accurate forecasts and improve the quality of the resultng work. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- HOW IT WORKS end block -->
+      <!-- NEWS block -->
+      <section class="news">
+        <div class=" news-wrapper wrapper">
+          <div class="n-box">
+            <h2 class="news__title">Latest News</h2>
+            <div class="news-box">
+              <div class="row">
+                <div class="col-4 col-xs-12">
+                  <div class="news-box__item">
+                    <div class="box"><img src="./img/coub.png" alt="box"></div>
+                    <h3 class="news-box__title">Абсолютная погрешность</h3>
+                    <p class="news-box__desc">Рондо синхронизует динамический эллипсис. Газ специфицирует ролевой соноропериод. Стимулирование коммьюнити, как неоднократно наблюдалось.</p>
+                  </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                  <div class="news-box__item">
+                    <div class="box"><img src="./img/coub.png" alt="box"></div>
+                    <h3 class="news-box__title">Производство имитирует эгоцентризм</h3>
+                    <p class="news-box__desc">Закон тормозит гидродинамический удар. Контекстная реклама вертикально восстанавливает интеграл по бесконечной области.</p>
+                  </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                  <div class="news-box__item">
+                    <div class="box"><img src="./img/coub.png" alt="box"></div>
+                    <h3 class="news-box__title">Тест полифигурно отражает </h3>
+                    <p class="news-box__desc">Визуализация концепии, следовательно, излучает архетип. Не доказано, что струя накладывает девиантный стратегический рыночный план. Интеграл Дирихле отклоняет креативный постулат.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button-news">
+              <button class="btn_lg btn_dark-blue transition">Load More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NEWS end block -->
+      <!-- QUESTIONS block -->
+      <div class="inner">
+        <section class="white_wrapper wrapper">
+          <div class="ques-box">
+            <div class="questions">
+              <h2 class="questions__title"><span>Frequently Asked</span> Questions</h2>
+              <div class="questions-block">
+                <div class="questions-block__item">
+                  <input type="checkbox" name="question" id="question_one">
+                  <label class="flex" for="question_one"><img src="../../img/question_btn.png" alt="btn">
+                    <h3 class="questions-block__title">Why the graphic predictions for the 24 hours differs from that of the 48 hour and the weekly?</h3>
+                  </label>
+                  <p class="none">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates the graphics will not be different.</p>
+                </div>
+                <div class="questions-block__item">
+                  <input type="checkbox" name="question" id="question_two">
+                  <label class="flex" for="question_two"><img src="../../img/question_btn.png" alt="btn">
+                    <h3 class="questions-block__title">What is the charts time zone?</h3>
+                  </label>
+                  <p class="none">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates the graphics will not be different.</p>
+                </div>
+                <div class="questions-block__item">
+                  <input type="checkbox" name="question" id="question_three">
+                  <label class="flex" for="question_three"><img src="../../img/question_btn.png" alt="btn">
+                    <h3 class="questions-block__title">How accurate are the forecasts?</h3>
+                  </label>
+                  <p class="none">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates the graphics will not be different.</p>
+                </div>
+                <div class="questions-block__item">
+                  <input type="checkbox" name="question" id="question_four">
+                  <label class="flex" for="question_four"><img src="../../img/question_btn.png" alt="btn">
+                    <h3 class="questions-block__title">Why are the graphics of the forecasts so inconvenient?</h3>
+                  </label>
+                  <p class="none">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates the graphics will not be different.</p>
+                </div>
+                <div class="questions-block__item">
+                  <input type="checkbox" name="question" id="question_five">
+                  <label class="flex" for="question_five"><img src="../../img/question_btn.png" alt="btn">
+                    <h3 class="questions-block__title">What is the most accurate forecast?</h3>
+                  </label>
+                  <p class="none">Since this is an alpha version of the NeuroBot, we use different algorithms to predict the rates of cryptocurrencies for 24 hours, 48 hours and a week. Soon we will implement a unified algorithm for all charts and in the next few updates the graphics will not be different.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- QUESTIONS end block -->
+      <footer class="footer-wrapper wrapper">
+        <div class="subscribe">
+          <div class="block-button">
+            <div class="subscribe-telegram">
+              <a href="#" class="subscribe-telegram__item transition btn_xl btn_white">Telegram bot</a>
+              <a href="#" class="subscribe-telegram__item transition btn_xl btn_white">Telegram bot</a>
+              <a href="#" class="subscribe-telegram__item transition btn_xl btn_white">Telegram channel</a>
+            </div>
+            <a class="block-button__link" href="#">support@neurobot.trading</a>
+          </div>
+          <div class="block-email">
+            <h3 class="block-email__title"><span>Subscribe</span> to our news</h3>
+            <form class="form" action="#">
+              <div class="email-form"><input class="email-form__input" type="email" name="email" placeholder="e-mail"></div>
+            </form>
+            <button class="block-email__btn btn_lg btn_dark-blue transition">Subscribe</button>
+          </div>
+        </div>
+      </footer>
+      <footer class="footer-wrapper wrapper">
+        <div class="footer-box">
+          <div class="links">
+            <ul class="links__block">
+              <li class="links__item">
+                <a href="#"><img src="../img/social icons.png" alt="facebook"></a>
+              </li>
+              <li class="links__item">
+                <a href="#"><img src="../img/inst.png" alt="instagram"></a>
+              </li>
+              <li class="links__item">
+                <a href="#"><img src="../img/youtube.png" alt="youtube"></a>
+              </li>
+              <li class="links__item">
+                <a href="#"><img src="../img/vk.png" alt="vk"></a>
+              </li>
+            </ul>
+            <div class="copy">
+              <a class="copy__link" href="#">Cookies</a>
+              <a class="copy__link" href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="bg-footer"></div>
+    </div>
+    <!-- BEGIN scripts -->
+    <!-- <script type="text/javascript" src="js/app.js"></script> -->
+    <!-- END scripts -->
+  </body>
+</html>
